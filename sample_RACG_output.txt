@@ -1,0 +1,58 @@
+####################################################################################################
+ Random Atom Configuration Generator version 1
+ Author: Woongkyu Jee, woong.jee.16@ucl.ac.uk
+ Last Edited: 17 / 12 / 2020
+
+ Random generation is successfully done ! 
+ Initialising geometric optimiser ...
+
+ General Input Info
+
+ BOX_INFO(x/y/z):	        12.00	        6.00	        6.00
+ ELEMENT_UNIT:	   Bi2   O3
+ ELEMENT_Q   :	 3.000  -2.000
+
+ ALLOWED_INITIAL_INTERATOMIC_DISTANCE(Angs):	      2.0000
+ ALLOWED_INITIAL_INTERATOMIC_FORCE(eV/Angs):	    20.00000
+
+ MAXIMUM_RANDOM_GENERATION_TRIAL:	80000
+ MAXIMUM_OPTIMISATION_CYCLE:     	4096
+ MAXIMUM_LS_SUBPROBLEM_TRIALS:   	512
+
+ PRE-OPTIMISATION_Born_Mayer_A(Cation-Anion):  	12435.0000
+ PRE-OPTIMISATION_Born_Mayer_R(Cation-Anion):  	0.2570
+ PRE-OPTIMISATION_Vdw(Anion-Anion):            	-32.0000
+
+####################################################################################################
+
+ optimisation log
+
+ Cycle:	   001 / Gnorm:	     1.03895
+ Cycle:	   033 / Gnorm:	     0.07940
+ Cycle:	   065 / Gnorm:	     0.03752
+ Cycle:	   097 / Gnorm:	     0.02197
+ Cycle:	   129 / Gnorm:	     0.06082
+ Cycle:	   161 / Gnorm:	     0.02917
+ Cycle:	   193 / Gnorm:	     0.00609
+ Cycle:	   225 / Gnorm:	     0.00238
+ Cycle:	   257 / Gnorm:	     0.00036
+ Cycle:	   289 / Gnorm:	     0.00052
+ Cycle:	   321 / Gnorm:	     0.00210
+ Cycle:	   353 / Gnorm:	     0.00223
+ Cycle:	   385 / Gnorm:	     0.00629
+ Cycle:	   417 / Gnorm:	     0.01037
+ Cycle:	   449 / Gnorm:	     0.00666
+ Cycle:	   481 / Gnorm:	     0.00975
+ Cycle:	   513 / Gnorm:	     0.00520
+ Cycle:	   545 / Gnorm:	     0.00458
+ Cycle:	   577 / Gnorm:	     0.01133
+ Cycle:	   609 / Gnorm:	     0.00184
+ Cycle:	   641 / Gnorm:	     0.00065
+ Cycle:	   673 / Gnorm:	     0.00028
+ Cycle:	   705 / Gnorm:	     0.00010
+
+ optimisation done, find detailed info in 'out.xyz'
+
+####################################################################################################
+ RESULT_TAG: SUCCESS 
+####################################################################################################
