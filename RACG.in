@@ -1,0 +1,29 @@
+#################################################
+# GENERAL INFO
+#################################################
+BOX_SIZE:		12.0	6.0	6.0
+BASE_ELEMENT:		Bi	O
+UNIT_STOCHIO:		2	3	
+ATOM_CHARGE:		+3.	-2.
+UNIT_SIZE:		8
+#################################################
+# TOLERACES FOR GENERATING CONFIGURATIONS
+#################################################
+INTER_ATOMIC_DISTANCE_TOL(Angs):	2.0
+INTER_ATOMIC_FORCE_TOL(eV/Angs):	20.
+#################################################
+# OPTION WORDS IF USE PRE-OPTIMISATION
+#
+# BORN-MAYER POTENTIAL BETWEEN CATION - ANION
+# IS USED TO CIRCUMVENT ATOM CLASHES
+# 
+# BY TWEAKING "GNORM_TOL" USER CAN KEEP A
+# RANDOM CONFIG IN LOOSELY RELAXED STRUCTURE
+#################################################
+BM_A(eV):		12435.
+BM_RHO(/Angs):		0.257
+LJ_(Angs^6):		32.00
+GNORM_TOL(eV/Angs):	0.000050
+
+
+# Dummy Comment
